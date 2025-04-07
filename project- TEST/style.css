@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #d5ff3c;
+
+}
+
+nav {
+    /* background-color: blue; */
+    padding: 30px 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+
+}
+
+nav h2 {
+    font-size: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+
+/* main end ,,,,,,,,,,,,,,,*/
+section {
+    padding: 15px 50px;
+}
+
+section .hero-text1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text1 h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.hero-text1 .video {
+    height: 100px;
+    width: 400px;
+    background-color: black;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-right: 80px;
+    background-image: url(https://images.pexels.com/photos/9669043/pexels-photo-9669043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.video .play {
+    width: 75px;
+    height: 100%;
+    background-color: black;
+    border-radius: 100px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.play i {
+    color: white;
+    font-size: 50px;
+
+}
+
+
+/* iiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+
+
+
+section .hero-text2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero-text2 h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.hero-text2 h1 {
+    margin-top: -50px;
+}
+
+.hero-text2 p {
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 500px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* margin-bottom: 40px;
+    /* margin-right: -55px; */
+}
+
+.button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-fir {
+    margin-right: 40px;
+}
+
+.btn-fir p {
+    width: 190px;
+    height: auto;
+    /* padding-left: 20px; */
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.btn-fir p {
+    width: 190px;
+    height: auto;
+    /* padding-left: 20px; */
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+.btn-sec p {
+    width: 190px;
+    height: auto;
+    /* padding-left: 20px; */
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.btn-sec p {
+    width: 190px;
+    height: auto;
+    /* padding-left: 20px; */
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* third section */
+
+.image {
+    margin-top: 100px;
+    height: 700px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: red;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(https://media.istockphoto.com/id/1038727610/photo/liquid-shapes-abstract-holographic-3d-wavy-background.jpg?s=612x612&w=0&k=20&c=OSfb3DuCHkjERNJTpK4GzMN851GhHQA6Evn9DKc-kw4=);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: ;
+}
+
+.image .arrow{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: -10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+
+
+/* text 2 start */
+
+/* section .hero-text2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero-text2 {
+    margin-top: -30px;
+}
+
+.hero-text2 h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.hero-text2 p {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-right: -20px;
+
+
+} */
